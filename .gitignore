@@ -1,0 +1,30 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+.DS_Store
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build files
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local and editor files
+.DS_Store
+.vscode/
